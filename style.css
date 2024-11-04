@@ -1,0 +1,156 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+     background-color: rgb(100,100,100);
+}
+
+.name{
+    color: rgb(67, 255, 255,1);
+    display: flex;
+    justify-content: center;
+    padding-top:2%;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding:3% 0;
+    
+}
+
+.gameBox{
+    display:grid;
+    grid-template-columns: repeat(3,6vw);
+    grid-template-rows: repeat(3,6vw);
+}
+
+.box {
+    padding: 15% 0;
+    font-size: 1rem;
+    border:2px solid #35424e;
+    text-align: center;
+    background-color: rgb(216, 217, 211,1);
+}
+.box:hover{
+     background-color: rgb(83, 84, 73);
+}
+
+.player{
+    font-size: 1.2rem;
+    margin-top:5vw;
+    padding:1vw 1vw;
+    color:bisque;
+    background-color: rgb(170, 56, 141);
+    border:1px solid whitesmoke;
+    border-radius: 12px 12px 0 0;
+    font-weight: 600;
+    min-width: 4vw;
+    text-align: center;
+}
+
+.score{
+    font-size: 2rem;
+    padding:1.2vw 0;
+    color:bisque;
+    text-align: center; 
+    border:1px solid whitesmoke;
+    border-radius: 0 0 12px 12px;
+    background-color: teal;
+}
+
+.player1,.player2{
+    margin:0 10vw;
+}
+
+.bt{
+    border-top:0;
+}
+
+.bb{
+    border-bottom:0;
+}
+
+.bl{
+    border-left:0;
+}
+
+.br{
+    border-right:0;
+}
+
+.gameInfo{
+    display:flex;
+    justify-content: space-around;
+}
+
+.setName button{
+    font-size: 1rem;
+    padding: 1vw; 
+    background-color: #d9c36b;
+}
+
+.turnInfo{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 10vw;
+    gap:2vw;
+}
+
+.turn{
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: 500;
+    background-color:#6ca366;
+    color:rgb(14, 17, 69);
+    border-radius: 16px;
+    width:7vw;
+    padding: 1vw;
+}
+
+.round {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding-left: 1vw;
+    display:flex;
+    align-items: center;
+    border-radius: 31px;
+}
+.round div{
+    height: 100%;
+    margin-left: 1vw;
+}
+
+#rounds{
+    font-size: 1rem;
+    font-weight: 500;
+    border:1px solid black;
+    padding-left:1vw;
+    width: 5vw;
+    background-color: aliceblue;
+    border-radius: 0 31px 31px 0;
+    height: 100%;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+}
+
+.control button{
+    font-size: 1.2rem;
+    background-color: #dccc07;
+    font-weight: 500;
+    padding: 0.5vw;
+    margin: 5vw 0 0  0;
+    border-radius: 23px;
+}
+
